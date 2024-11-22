@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?cs=srgb&dl=pexels-goumbik-616401.jpg&fm=jpg");
+  background-size: cover;
+  background-color: rgba(205, 205, 205, 0.432); /* Black overlay with 50% opacity */
+  background-blend-mode: overlay; /* Blends the color over the image */
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  background-repeat: no-repeat;
+}
+
+.header {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+.main-title {
+  font-size: 75px;
+  color: white;
+  vertical-align: middle;
+  margin-bottom: 5px;  
+}
+
+.subtitle {
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  margin: 5px 0;
+  padding-top: 4px; 
+  border-top: 2px solid rgba(121, 121, 121, 0.396);
+  border-width: px;
+}
+
+.Directory {
+  padding-top: 50px;
+  margin: 0 auto; /* Centers the div horizontally */
+  padding-right: 200px; /* Adds padding to the right to move content left */
+  max-width: 700px;
+}
+
+.dir-title {
+  font-size: 25px;
+}
+
+a,
+ul {
+  color: black;
+}
