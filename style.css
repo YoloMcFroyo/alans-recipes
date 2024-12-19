@@ -32,17 +32,26 @@ body {
 }
 
 .Directory {
+  background-color: ivory;
   padding-top: 50px;
   margin: 0 auto; /* Centers the div horizontally */
   padding-right: 200px; /* Adds padding to the right to move content left */
   max-width: 700px;
+  padding: 20px 40px;
 }
 
 .dir-title {
   font-size: 25px;
+  margin-bottom: 10px;
 }
 
 a,
 ul {
   color: black;
+  margin-top: 5px;
+  padding-left: px;
+}
+
+li {
+  padding: 10px 0px;
 }
